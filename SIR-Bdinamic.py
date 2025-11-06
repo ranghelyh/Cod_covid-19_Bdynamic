@@ -104,7 +104,7 @@ sim_best = simulate_new_cases(fitted_params)
 
 # --- Graphics ---
 plt.figure(figsize=(12,5), dpi=300)
-plt.plot(Date, sim_best, label='Dear',
+plt.plot(Date, sim_best, label='simulated',
     color='steelblue', linewidth= 1.5)
 plt.scatter(Date, I_data, label='Observed', color='k', s=10, alpha=0.6)
 plt.xlabel('Date', fontsize=16, fontweight='bold')
